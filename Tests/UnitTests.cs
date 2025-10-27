@@ -65,7 +65,7 @@ public class Multiplication
     {
         Assert.AreEqual(6, Program.Multiply("3", "2"));
         Assert.AreEqual(-10, Program.Multiply("-5", "2"));
-        Assert.AreEqual(5, Program.Multiply("1.5", "2.5"));
+        Assert.AreEqual(3.75, Program.Multiply("1.5", "2.5"));
     }
 
     [TestMethod]
